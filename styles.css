@@ -66,7 +66,7 @@ header {
     translate: 0 0;
 }
 
-.button:active .button__bottom-layer {
+.button__bottom-layer:active .button__bottom-layer {
     box-shadow: 0 0 0 #00000060;
 }
 
