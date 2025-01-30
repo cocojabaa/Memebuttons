@@ -57,12 +57,12 @@ header {
     transition-duration: 0.15s;
 }
 @media (hover: hover) {
-    .button:hover .button__top-layer {
+    .button__bottom-layer:hover .button__top-layer {
         translate: 0 -2.3vw;
     }
 }
 
-.button:active .button__top-layer {
+.button__bottom-layer:active .button__top-layer {
     translate: 0 0;
 }
 
